@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    background-color: #f4d04e;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 0 black;
+    border-radius: 20px;
+    max-width: 350px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-highlighted-text {
+    font-weight: 800;
+    background-color: #f4d04e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.card-date {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.card-description {
+    font-weight: 400;
+    color: #6b6b6b;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.attribution {
+    margin-top: 10px;
+}
